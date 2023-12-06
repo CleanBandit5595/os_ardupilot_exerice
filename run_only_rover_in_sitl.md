@@ -1,13 +1,15 @@
-# run only Rover in SITL
+# Run Only Rover in SITL
 
-In this exercise your object is to run only the Rover vehicle using sitl sim_vehicle. 
+## The Exercise 
+In this exercise your object is to run only the Rover vehicle (and not any other vehicle) using sitl sim_vehicle. 
 
-Do not change the API of using sim_vehicle.py !!! 
+Do not change the API of using sim_vehicle.py !
 
+DO NOT invent the wheel! use the open-source code and see where it is the easiest to change it to achieve this goal. 
 
-home solution: 
+## Home Solution: 
 
-git status output : 
+`git status` output : 
 
 ```
 on branch master
@@ -21,7 +23,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-git diff Tools/autotest/sim_vehicle.py output : 
+`git diff Tools/autotest/sim_vehicle.py` output : 
 
 ```
 diff --git a/Tools/autotest/sim_vehicle.py b/Tools/autotest/sim_vehicle.py
